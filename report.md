@@ -1,7 +1,7 @@
 # Introduction / Business Problem
 Employees or freelancers often need to move to another city when they change their employer. 
 As it is hard to pick a matching neighborhood for a new place to live, 
-it would be great if these persons receive recommendation of "target" neighborhood based on their current neighborhood.
+it would be great if these persons receive recommendations of "target" neighborhoods based on their current neighborhood.
 
 # Data
 Input data would be the current home address and the target city. 
