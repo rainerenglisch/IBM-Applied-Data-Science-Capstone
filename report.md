@@ -13,12 +13,10 @@ Output data:
 1. are the *recommended neighborhoods* in the target city ranked by their similarity regarding to the current home neighborhood.
 
 ## How will the output be computed?
-1. The current home address and the target city need to be transformed into geo location data that is longitude and lattitude. That is done via the python module geopy.
-2. For the home location the home neighborhood is explored by means of the Foursquare service venues/explore.
-3. For this home neighborhood all the venues are fetched, categories counted and hot encoded.
-Example:
-4. The the geolocation of the target city is queried. That is done via the python module geopy.
-5. The geolocations of the neighborhoods of the target city are retrieved. That is done via the python module geopy.
+1. The current home address needs to be transformed into geo location data that is longitude and lattitude. That is done via the python module geopy.
+2. The geolocations of the target city's neighborhoods of the target city are retrieved. That is done via the python module geopy.
+3. For the home location the home neighborhood is explored by means of the Foursquare service venues/explore.
+4. For this home neighborhood all the venues are fetched, categories counted and hot encoded.
 5. For the target city location all the  neighborhoods are fetched and their venues fetched, categories counted and one hot encoded.
 6. Together with the "source" neighborhood the target neighborhoods they are clustered via kmeans.
 7. All the "target" neighborhoods that are in the same cluster as the "source" neighborhood are considered as recommended similar neighborhoods
