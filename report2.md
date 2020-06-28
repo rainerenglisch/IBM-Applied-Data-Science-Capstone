@@ -55,11 +55,13 @@ Output data:
 
 
 # Methodology 
-section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
-
+## First thoughts
+First I thought about using k-means by putting the home neighboorhood into the list of target city's neighborhoods. I thought about recommending the neighborhoods that would be in the same cluster as the home neighboorhood. However, I realized I wanted to have actually the features of my home location to be centroid. 
+## Final thoughts
 My solution to the problem described in the introduction was derived from the clustering k-means approached that was shown in the neighborhood clustering notebook for New York in this course. 
 In Summary what the k-means algorithm does is: It creates centroids where every observation (neighborhood) gets assigned to exactly one centroid.
 Like in the example clustering notebook a feature vector was created for every neighborhood consisting of one hot encoded venue categories.
+## Approach
 My idea was 
 1. to set the feature vector of the home neighborhood as the "centroid" like at k-means
 2. to use euclidean distance to measure the distance of all observation (in that case the target city's neighborhoods feature vectors)
@@ -67,6 +69,8 @@ My idea was
 
 
 # Results 
+The jupyter notebook that ran with the home location "Buschweg, 53229 Bonn, Germany" and target city "Berlin, Germany". The goal was to find a neighborhood in Berlin that is similar to the one in Bonn.
+
 
 ## Distribution of euclidean distances 
 ![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/distribution_distances.png "Distribution of distances")
@@ -79,8 +83,8 @@ The top ten list confirms the observation that there are not many good matches. 
 
 ## Map of top ten recommendations
 ![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/top_ten_recommended_neighboorhoods_map2.png "List of smallest distances to home neighborhood feature vector")
-The winner neighborhood "Hakenfelde" lies in North West outer border of Berlin. Similarly, the home neighboorhood is at the North East border of Bonn.
 
+The winner neighborhood "Hakenfelde" lies in North West outer border of Berlin. Similarly, the home neighboorhood is at the North East border of Bonn.
 
 # Discussion 
 section where you discuss any observations you noted and any recommendations you can make based on the results.
