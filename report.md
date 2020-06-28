@@ -16,11 +16,9 @@ Output data:
 1. The current home address needs to be transformed into geo location data that is longitude and lattitude. That is done via the python module geopy.
 > E.g.: "For address XYZ, 53229 Bonn, Deutschland the geograpical coordinate are 50.75860485, 7.150333800000002."
 2. The geolocations of the target city's neighborhoods of the target city are retrieved. That is done via the python module geopy.
-E.g.: "For address Berlin, Deutschland the geograpical coordinate are 52.5170365, 13.3888599."
+> E.g.: "For address Berlin, Deutschland the geograpical coordinate are 52.5170365, 13.3888599."
 3. For the home location the home neighborhood is explored by means of the Foursquare service venues/explore.
-E.g.:  	
-
-
+> E.g.:  	
 | Neighborhood | Neighborhood  Latitude | Neighborhood Longitude |	Venue |	Venue Latitude |	Venue Longitude 	|Venue Category |
 | --- | --- | --- | --- | --- |--- |--- |
 | Adlershof |	8 |	8 |	8 	|8 |	8 	|8|
