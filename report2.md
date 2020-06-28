@@ -87,7 +87,7 @@ The distance results are very interesting as it is skewed to right. Nearly 90% o
 ## List of top ten neighborhoods with smallest distances
 ![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/top_ten_recommended_neighboorhoods_list.png "List of smallest distances to home neighborhood feature vector")
 
-The top ten list confirms the observation that there are not many good matches. That is why, we find an extremely good match in the neighborhood "Hakenfelde" which has a distance of nearly 0! The next best match is "Stadtrandsiedlung Malchow" with a distance of only around 0.7.
+The top ten list confirms the observation that there are not many good matches. That is why it is surprising, we find an extremely good match in the neighborhood "Hakenfelde" which has a distance of nearly 0! The next best match is "Stadtrandsiedlung Malchow" with a distance of only around 0.7.
 
 The winner neighborhood "Hakenfelde" lies in North West outer border of Berlin. Similarly, the home neighboorhood is at the North East border of Bonn.
 
@@ -95,6 +95,11 @@ The winner neighborhood "Hakenfelde" lies in North West outer border of Berlin. 
 section where you conclude the report.
 
 # A link to Notebook 
-on your Github repository pushed showing your code. (15 marks)
+This is the link to my notebook:
+
+[I'm an inline-style link](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/blob/master/my_capstone.ipynb)
+
+
+
 
 # Your choice of a presentation or blogpost. (10 marks)
