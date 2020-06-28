@@ -56,9 +56,9 @@ Output data:
 
 # Methodology 
 ## First thoughts
-First I thought about using k-means by putting the home neighboorhood into the list of target city's neighborhoods. I thought about recommending the neighborhoods that would be in the same cluster as the home neighboorhood. However, I realized I wanted to have actually the features of my home location to be centroid. 
+First I thought about using k-means by putting the home neighboorhood into the list of target city's neighborhoods. That is, recommending the neighborhoods that would be in the same cluster as the home neighboorhood. However, I realized I wanted to have actually the features of my home location to be centroid. 
 ## Final thoughts
-My solution to the problem described in the introduction was derived from the clustering k-means approached that was shown in the neighborhood clustering notebook for New York in this course. 
+My final solution to the problem described in the introduction was derived from the clustering k-means approached that was shown in the neighborhood clustering notebook for New York in this course. 
 In Summary what the k-means algorithm does is: It creates centroids where every observation (neighborhood) gets assigned to exactly one centroid.
 Like in the example clustering notebook a feature vector was created for every neighborhood consisting of one hot encoded venue categories.
 ## Approach
