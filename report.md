@@ -47,7 +47,7 @@ Output data:
 
 | Neighborhood | Rank | Distance |
 | --- | --- | --- | 
-| Adlershof |	1 |	0|
+| Adlershof |	1 |	0.1|
 |Alt-Hohenschönhausen| 	2| 	0.3|
 |Alt-Treptow| 	3| 	0.4|
 |Baumschulenweg| 	4| 	0.5|
