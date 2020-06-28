@@ -66,7 +66,15 @@ My idea was
 
 
 # Results 
-section where you discuss the results.
+
+The distance results are very interesting as it is skewed to right. Nearly 90% of the distances are around 1. 
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Only a few seem to be a good match. That is why, we find an extremely good match in the neighborhood "Hakenfelde" which has a distance of nearly 0! The next best match is "Stadtrandsiedlung Malchow" with a distance of around 0.7.
+
+
+
 # Discussion 
 section where you discuss any observations you noted and any recommendations you can make based on the results.
 # Conclusion 
