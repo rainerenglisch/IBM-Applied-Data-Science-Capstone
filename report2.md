@@ -92,7 +92,7 @@ The top ten list confirms the observation that there are not many good matches. 
 The winner neighborhood "Hakenfelde" lies in North West outer border of Berlin. Similarly, the home neighboorhood is at the North East border of Bonn.
 
 # Conclusion 
-section where you conclude the report.
+The comparison of venues seems to work quite well. Of course, for a comprehensive comparison of neighborhoods more than data about venues are needed. For instance, socio-economic information could be used about income, age distribution. Aswell, it could be nice that if a person could up- or downvote features of his or hers home neighborhood in order to find a better even better match in the target city.
 
 # A link to Notebook 
 This is the link to my notebook:
