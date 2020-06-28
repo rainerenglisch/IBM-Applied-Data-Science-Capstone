@@ -22,7 +22,7 @@ E.g.:
 
 
 | Neighborhood | Neighborhood  Latitude | Neighborhood Longitude |	Venue |	Venue Latitude |	Venue Longitude 	|Venue Category |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |--- |--- |
 | Adlershof |	8 |	8 |	8 	|8 |	8 	|8|
 |Alt-Hohenschönhausen| 	10| 	10| 	10| 	10| 	10| 	10|
 |Alt-Treptow| 	26| 	26| 	26| 	26| 	26| 	26|
