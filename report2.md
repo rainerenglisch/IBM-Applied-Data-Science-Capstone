@@ -69,7 +69,7 @@ My idea was
 
 The distance results are very interesting as it is skewed to right. Nearly 90% of the distances are around 1. 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/distribution_distances.png "Logo Title Text 1")
 
 Only a few seem to be a good match. That is why, we find an extremely good match in the neighborhood "Hakenfelde" which has a distance of nearly 0! The next best match is "Stadtrandsiedlung Malchow" with a distance of around 0.7.
 
