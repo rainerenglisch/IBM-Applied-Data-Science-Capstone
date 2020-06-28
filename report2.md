@@ -71,6 +71,14 @@ My idea was
 # Results 
 The jupyter notebook that ran with the home location "Buschweg, 53229 Bonn, Germany" and target city "Berlin, Germany". The goal was to find a neighborhood in Berlin that is similar to the one in Bonn.
 
+## Map of top ten recommendations
+![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/top_ten_recommended_neighboorhoods_map2.png "List of smallest distances to home neighborhood feature vector")
+
+The winner neighborhood "Hakenfelde" lies in North West outer border of Berlin. 
+
+# Discussion 
+section where you discuss any observations you noted and any recommendations you can make based on the results.
+
 
 ## Distribution of euclidean distances 
 ![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/distribution_distances.png "Distribution of distances")
@@ -81,13 +89,8 @@ The distance results are very interesting as it is skewed to right. Nearly 90% o
 
 The top ten list confirms the observation that there are not many good matches. That is why, we find an extremely good match in the neighborhood "Hakenfelde" which has a distance of nearly 0! The next best match is "Stadtrandsiedlung Malchow" with a distance of only around 0.7.
 
-## Map of top ten recommendations
-![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/top_ten_recommended_neighboorhoods_map2.png "List of smallest distances to home neighborhood feature vector")
-
 The winner neighborhood "Hakenfelde" lies in North West outer border of Berlin. Similarly, the home neighboorhood is at the North East border of Bonn.
 
-# Discussion 
-section where you discuss any observations you noted and any recommendations you can make based on the results.
 # Conclusion 
 section where you conclude the report.
 
