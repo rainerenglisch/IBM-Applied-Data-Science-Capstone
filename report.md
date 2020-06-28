@@ -43,3 +43,12 @@ Output data:
 
 5. By means of the euclidean distance , the similarity of the target neighborhood are compared with the home neighborhood. The top ten similar neighboorhoods are printed and displayed on a map.
 
+> E.g.: 
+
+| Neighborhood | Rank | Distance |
+| --- | --- | --- | 
+| Adlershof |	1 |	0|
+|Alt-Hohenschönhausen| 	2| 	0.3|
+|Alt-Treptow| 	3| 	0.4|
+|Baumschulenweg| 	4| 	0.5|
+|Biesdorf| 	5| 	0.6|
