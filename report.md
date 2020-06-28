@@ -18,7 +18,9 @@ Output data:
 2. The geolocations of the target city's neighborhoods of the target city are retrieved. That is done via the python module geopy.
 > E.g.: "For address Berlin, Deutschland the geograpical coordinate are 52.5170365, 13.3888599."
 3. For the home location the home neighborhood is explored by means of the Foursquare service venues/explore.
-> E.g.:  	
+> E.g.:  
+
+
 | Neighborhood | Neighborhood  Latitude | Neighborhood Longitude |	Venue |	Venue Latitude |	Venue Longitude 	|Venue Category |
 | --- | --- | --- | --- | --- |--- |--- |
 | Adlershof |	8 |	8 |	8 	|8 |	8 	|8|
@@ -28,5 +30,7 @@ Output data:
 |Biesdorf| 	6| 	6| 	6| 	6| 	6| 	6|
 
 4. For this home neighborhood and the target city neighborhoods all the venues are fetched, categories counted and hot encoded.
+
+
 5. By means of the euclidean distance , the similarity of the target neighborhood are compared with the home neighborhood. The top ten similar neighboorhoods are printed and displayed on a map.
 
