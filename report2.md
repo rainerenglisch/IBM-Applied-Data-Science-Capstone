@@ -56,6 +56,15 @@ Output data:
 
 # Methodology 
 section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
+
+My solution to the problem described in the introduction was derived from the clustering k-means approached that was shown in the neighborhood clustering notebook for New York in this course. 
+In Summary what the k-means algorithm does is: It creates centroids where every observation (neighborhood) gets assigned to exactly one centroid.
+My idea was 
+1. to set the feature vector of the home neighborhood as the "centroid" like at k-means
+2. to use euclidean distance to measure the distance of all observation (in that case the target city's neighborhoods feature vectors)
+3. To rank the recommendation by that distance (the closer to zero the better).
+
+
 # Results 
 section where you discuss the results.
 # Discussion 
