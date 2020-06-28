@@ -59,6 +59,7 @@ section which represents the main component of the report where you discuss and 
 
 My solution to the problem described in the introduction was derived from the clustering k-means approached that was shown in the neighborhood clustering notebook for New York in this course. 
 In Summary what the k-means algorithm does is: It creates centroids where every observation (neighborhood) gets assigned to exactly one centroid.
+Like in the example clustering notebook a feature vector was created for every neighborhood consisting of one hot encoded venue categories.
 My idea was 
 1. to set the feature vector of the home neighborhood as the "centroid" like at k-means
 2. to use euclidean distance to measure the distance of all observation (in that case the target city's neighborhoods feature vectors)
@@ -69,10 +70,13 @@ My idea was
 
 The distance results are very interesting as it is skewed to right. Nearly 90% of the distances are around 1. 
 
-![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/distribution_distances.png "Logo Title Text 1")
+![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/distribution_distances.png "Distribution of distances")
 
 Only a few seem to be a good match. That is why, we find an extremely good match in the neighborhood "Hakenfelde" which has a distance of nearly 0! The next best match is "Stadtrandsiedlung Malchow" with a distance of around 0.7.
 
+![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/top_ten_recommended_neighboorhoods_list.png "List of smallest distances to home neighborhood feature vector")
+
+![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/top_ten_recommended_neighboorhoods_map.png.png "List of smallest distances to home neighborhood feature vector")
 
 
 # Discussion 
