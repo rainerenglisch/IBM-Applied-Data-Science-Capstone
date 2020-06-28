@@ -19,6 +19,8 @@ E.g.: "For address XYZ, 53229 Bonn, Deutschland the geograpical coordinate are 5
 E.g.: "For address Berlin, Deutschland the geograpical coordinate are 52.5170365, 13.3888599."
 3. For the home location the home neighborhood is explored by means of the Foursquare service venues/explore.
 E.g.:  	
+
+
 | Neighborhood | Neighborhood  Latitude | Neighborhood Longitude |	Venue |	Venue Latitude |	Venue Longitude 	|Venue Category |
 | --- | --- | --- |
 | Adlershof |	8 |	8 |	8 	|8 |	8 	|8|
