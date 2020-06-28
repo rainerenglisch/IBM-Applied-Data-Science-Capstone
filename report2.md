@@ -63,7 +63,7 @@ In Summary what the k-means algorithm does is: It creates centroids where every 
 Like in the example clustering notebook a feature vector was created for every neighborhood consisting of one hot encoded venue categories.
 ## Approach
 My idea was 
-1. to set the feature vector of the home neighborhood as the "centroid" like at k-means
+1. to set the feature vector of the home neighborhood as the "centroid" like with k-means
 2. to use euclidean distance to measure the distance of all observation (in that case the target city's neighborhoods feature vectors)
 3. To rank the recommendation by that distance (the closer to zero the better).
 
@@ -77,12 +77,11 @@ The jupyter notebook that ran with the home location "Buschweg, 53229 Bonn, Germ
 The winner neighborhood "Hakenfelde" lies in North West outer border of Berlin. 
 
 # Discussion 
-section where you discuss any observations you noted and any recommendations you can make based on the results.
-
+Hier I want to show the result of comparing my home neighborhood in Bonn with the neighborhoods in Berlin.
 
 ## Distribution of euclidean distances 
 ![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/distribution_distances.png "Distribution of distances")
-The distance results are very interesting as it is skewed to right. Nearly 90% of the distances are around 1. That is, there are not many good matches.
+The distance results are very interesting as it is skewed to right. Nearly 90% of the distances are around 1. That is, there are not many good matches. For other location in Bonn, I experienced a uniform distribution of the distances. 
 
 ## List of top ten neighborhoods with smallest distances
 ![alt text](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/raw/master/top_ten_recommended_neighboorhoods_list.png "List of smallest distances to home neighborhood feature vector")
@@ -98,8 +97,6 @@ The comparison of venues seems to work quite well. Of course, for a comprehensiv
 This is the link to my notebook:
 
 [I'm an inline-style link](https://github.com/rainerenglisch/IBM-Applied-Data-Science-Capstone/blob/master/my_capstone.ipynb)
-
-
 
 
 # Your choice of a presentation or blogpost. (10 marks)
