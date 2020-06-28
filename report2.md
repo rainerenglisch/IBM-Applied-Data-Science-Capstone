@@ -52,3 +52,18 @@ Output data:
 |Alt-Treptow| 	3| 	0.4|
 |Baumschulenweg| 	4| 	0.5|
 |Biesdorf| 	5| 	0.6|
+
+
+# Methodology 
+section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
+# Results 
+section where you discuss the results.
+# Discussion 
+section where you discuss any observations you noted and any recommendations you can make based on the results.
+# Conclusion 
+section where you conclude the report.
+
+# A link to Notebook 
+on your Github repository pushed showing your code. (15 marks)
+
+# Your choice of a presentation or blogpost. (10 marks)
