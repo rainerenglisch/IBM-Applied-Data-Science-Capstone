@@ -30,6 +30,15 @@ Output data:
 |Biesdorf| 	6| 	6| 	6| 	6| 	6| 	6|
 
 4. For this home neighborhood and the target city neighborhoods all the venues are fetched, categories counted and hot encoded.
+> E.g.: 
+
+| Neighborhood | Zoo Exhibit | ATM |	African Restaurant |	American Restaurant |	Argentinian Restaurant  	| Art Gallery|
+| --- | --- | --- | --- | --- |--- |--- |
+| Adlershof |	0 |	0|	0 	|0 |	0	|0|
+|Alt-Hohenschönhausen| 	0| 	0| 	0| 	0| 	0| 	0|
+|Alt-Treptow| 	0| 	0.1| 	0| 	0| 	0| 	0.7|
+|Baumschulenweg| 	0| 	0.3| 	0| 	0| 	0| 	0|
+|Biesdorf| 	0| 	0| 	0| 	0| 	0| 	0|
 
 
 5. By means of the euclidean distance , the similarity of the target neighborhood are compared with the home neighborhood. The top ten similar neighboorhoods are printed and displayed on a map.
